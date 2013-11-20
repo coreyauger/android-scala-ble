@@ -54,7 +54,7 @@ class MainActivity extends Activity with BleDeviceScanner{
 Was used in a hackathon to try to do accurate indoor positioning.  We ended up having to make a ton of modifications since the TI Sensor Tag can not be used to accuratly interpolate position.
 
 Here is a screen shot
-![Perspective Correct](http://www.coreyauger.com/images/perspectiveCorrect.png "Place holder")
+TODO://
 
 
 
