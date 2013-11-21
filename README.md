@@ -38,7 +38,7 @@ class MainActivity extends Activity with BleDeviceScanner{
 		        d: BluetoothDevice =>
 					d.getName() != null		// You could filter by device name or address here..  									
 		      }
-		      startScan()(filter){
+		      startScanWithFilter(filter){
 		        di: BleDeviceInfo =>  // This ia a callback with the located device 
 		          Log.d(TAG,"Found device[%s] with signal stregth: %s".format(di.getBluetoothDevice.getAddress, di.getRssi) )
 		      } 		    
